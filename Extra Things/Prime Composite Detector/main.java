@@ -7,12 +7,15 @@ public class main {
             boolean isContinued = checkResult1();
             if (isContinued) {
                 int num = checkNumber();
-                boolean isComposite = checkPrimeComposite(num);
-                if (isComposite) {
-                    System.out.println(num + " is a Composite Number");
-                }
-                else {
-                    System.out.println(num + " is a Prime Number");
+                if (num != 1) {
+                    boolean isComposite = checkPrimeComposite(num);
+                    if (isComposite) {
+                        System.out.println(num + " is a Composite Number");
+                    } else {
+                        System.out.println(num + " is a Prime Number");
+                    }
+                } else {
+                    System.out.println("1 is neither a prime number, nor a composite number");
                 }
             } else {
                 i = 0;
@@ -35,12 +38,12 @@ public class main {
 
     public static int checkNumber() {
         Scanner obj = new Scanner(System.in);
-        System.out.print("Please enter a positive integer : ");
+        System.out.print(
+                "Enter a number to find out if it is a prime or composite. \nPlease enter a positive integer : ");
         int integer = obj.nextInt();
         if (integer <= 0) {
             return checkNumber();
-        }
-        else {
+        } else {
             return integer;
         }
     }

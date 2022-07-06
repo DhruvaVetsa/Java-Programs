@@ -1,4 +1,4 @@
-public class program {
+public class Q5 {
     public static void main(String[] args) {
         byte b = 127;
         int i = 231313483;
@@ -13,10 +13,11 @@ public class program {
         System.out.println(i + " has a data type of int.");
         System.out.println(s + " has a data type of short.");
         System.out.println(l + " has a data type of long.");
-        System.out.println("\"" + S  + "\" has a data type of String.");
+        System.out.println("\"" + S + "\" has a data type of String.");
         System.out.println("\'" + c + "\' has a data type of char.");
         System.out.println(B + " has a data type of boolean.");
         System.out.println(f + " has a data type of float.");
         System.out.println(d + " has a data type of double.");
     }
+
 }
