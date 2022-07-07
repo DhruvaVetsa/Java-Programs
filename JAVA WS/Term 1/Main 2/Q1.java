@@ -11,7 +11,7 @@ public class Q1 {
         System.out.print("\tAge : ");
         age = scannerObj.nextInt();
         System.out.print("\tGender : ");
-        gender = scannerObj.nextLine();
+        gender = scannerObj.next();
         System.out.println("====================================================================");
         System.out.println("Your name is " + name);
         System.out.println("Your age is " + age);

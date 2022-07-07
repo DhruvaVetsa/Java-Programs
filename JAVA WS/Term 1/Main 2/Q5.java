@@ -10,7 +10,7 @@ public class Q5 {
         List<Integer> quantity = new ArrayList<Integer>();
         for (int i = 0; i < 1; i--) {
             String itemString = addItem();
-            if (itemString == "..") {
+            if (itemString.equalsIgnoreCase("..")) {
                 calculate_and_print_bill(items, quantity);
                 return;
             }

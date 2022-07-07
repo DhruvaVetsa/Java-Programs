@@ -7,6 +7,8 @@ public class Q3 {
         System.out.print("Please enter 2 numbers : ");
         x = scannerObj.nextInt();
         y = scannerObj.nextInt();
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
         System.out.println("====================================================================");
         System.out.println("x square is " + (x * x));
         System.out.println("x cube is " + (x * x * x));
