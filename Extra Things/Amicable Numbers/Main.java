@@ -7,16 +7,29 @@ public class Main {
         Scanner obj = new Scanner(System.in);
         int a = obj.nextInt();
         int b = obj.nextInt();
-        a = sum
-
+        if(isAmicable(a, b)) {
+            System.out.println("The numbers " + a + " " + b + " are amicable numbers!");
+        }
+ 
     }
-    public static int sumOfFactors(int n) {
-        int sum;
-        for (int i = 1; i <= n; i++) {
-            if (n % i == 0) {
-                sum += i;
+    public static boolean isAmicable(int no1, int no2) {
+        int sum_no1 = 0;
+        for (int i = 1; i <= no1; i++) {
+            if (no1 % i == 0) {
+                sum_no1 += i;
             }
         }
-        return sum;
+        int sum_no2 = 0;
+        for (int i = 1; i <= no1; i++) {
+            if (no1 % i == 0) {
+                sum_no1 += i;
+            }
+        }
+        if (sum_no1 == sum_no2) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
