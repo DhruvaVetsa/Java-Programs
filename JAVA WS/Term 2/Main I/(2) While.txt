@@ -1,0 +1,3 @@
+while (condition) {
+    // block of code to be executed
+}

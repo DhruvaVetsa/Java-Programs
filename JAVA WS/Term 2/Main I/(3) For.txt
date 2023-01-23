@@ -1,0 +1,10 @@
+for (decleration; condition; incrementation/decrementation) {
+    // Block of code to be looped
+}
+
+/* 
+Here : 
+decleration => i = 1
+condition => i <= 20
+incrementation => i++
+*/
