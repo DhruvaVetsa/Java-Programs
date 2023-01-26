@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Q15 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the range of multiplication tables : ");
+        System.out.print("Enter the range of multiplication tables : ");
         int a, b;
         a = in.nextInt();
         b = in.nextInt();

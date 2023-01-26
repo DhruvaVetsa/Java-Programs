@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Q13 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter a number : ");
+        System.out.print("Enter a number : ");
         int a, b;
         a = in.nextInt();
-        System.out.println("Enter a number greater that " + a + " : ");
+        System.out.print("Enter a number greater than " + a + " : ");
         b = in.nextInt();
         int i;
         System.out.println("WHILE LOOP : ");
