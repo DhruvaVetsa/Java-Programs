@@ -1,0 +1,6 @@
+if ( condition ) {
+    // block of code to be executed is condition is true
+}
+else {
+    //block of code to be executed if condition is false
+}
